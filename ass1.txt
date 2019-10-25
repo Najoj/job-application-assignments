@@ -1,0 +1,21 @@
+Assignment 1
+
+Rules and requirements:
+
+- The script shall be written in bash.
+
+- The script shall be runnable.
+
+- All output from the script shall be written with timestamps to both syslog and stdout.
+
+- Readability and maintainability is very important.
+
+
+
+Assignment:
+
+1) Print the name of all processes that are immediate children of init (i.e. init is their closest parent with no processes in between) by using the information in /proc
+
+2) Choose one process from (1) (in any way you want)
+
+    3) Monitor the process you chose in (2). If it dies, print both its name and the latest value of se.vruntime you saw

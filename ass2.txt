@@ -1,0 +1,49 @@
+Assignment 2
+
+Rules and requirements:
+
+- The program shall be written in C
+
+- Readability and maintainability is important
+
+- Don't worry about PID resuse (you can ignore it)
+
+
+
+Assignment:
+
+1) Collect all PIDs in the system.
+
+2) Sleep for a period of time (let's say 60 seconds)
+
+3) Print missing and new PIDs along with the name of associated processes.
+
+Example (where the PID counter has wrapped):
+
+    This is the process list before (PID - processname):
+
+        1 - init
+
+        2 - sshd
+
+        4 - foo
+
+
+        This is the process list after (PID - processname):
+
+            1 - init
+
+            3 - sshd
+
+            4 - bar
+
+
+
+            This should print something like
+
+            gone: 2 - sshd
+
+            new: 3 - sshd
+
+
+(You can neglect that PID 4 has been reused.)
